@@ -72,6 +72,7 @@ function init() {
         const markdownText= generateMarkdown(answers);
         writeToFile("README.md", markdownText);
     });
+    
 }
 
 // Function call to initialize app
